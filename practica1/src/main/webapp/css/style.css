@@ -1,0 +1,51 @@
+#cont{
+	margin: 0 auto;
+	padding-top:20px;
+	text-align: center;
+	width: 60%;
+	box-shadow: 10px 10px 10px #C8C8C8;
+}
+
+#cont input{
+	width:300px;
+	border-top:0px;
+	border-left:0px;
+	border-right:0px;
+	border-bottom: 2px solid #000000;
+	text-align:center;
+}
+#cont input:focus{
+	outline:0px;
+	text-align:center;
+}
+#cont input::placeholder{
+	text-align:center;
+	color:#595959;
+	font-size: 1.2em;
+	padding-bottom: 5px;
+}
+#cont select{
+	width:300px;
+	border-top:0px;
+	border-left:0px;
+	border-right:0px;
+	border-bottom: 0px;
+	text-align:center;
+}
+#cont select .lt{
+	text-align:center;
+}
+#cont button{
+	width: 20%;
+	border-color:#000000;
+	background-color:#ffffff;
+	border-radius: 5px;
+}
+#cont button:active{
+	outline:0px;
+	color:#000000;
+}
+#cont button:hover{
+	color:#000000;
+	background-color: #C8C8C8;
+}
